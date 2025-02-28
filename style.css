@@ -1,0 +1,25 @@
+h3{
+    color: blue;
+}
+article{
+    background-color: #D5D5D5;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 45%; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+img{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 300px;
+    display: block;/*para centrar la imagen*/
+    margin: auto;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;/*permite que los artículos se acomoden en pantallas pequeñas*/
+    justify-content:  center;
+    gap: 20px;
+}
